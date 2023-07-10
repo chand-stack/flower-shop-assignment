@@ -119,6 +119,9 @@ margin-bottom: 20px;
   padding-top: 30px;
 }
 
+.title{
+    color: #E55473;
+}
 .sale-section{
     height: 500px;
     background: rgba(229, 84, 115, 0.05);
@@ -189,4 +192,22 @@ gap: 15px;
     border: none; 
     padding: 15px 25px 15px 25px;
     margin-left: 10px;
+}
+
+footer{
+    height: 380px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 180px;
+}
+.footer-title{
+    text-align: center;
+    width: 550px;
+    margin: auto;
+    
+}
+.footer-description{
+    font-size: 15px;
+    padding: 15px 0px 15px 0px;
 }
