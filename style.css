@@ -91,6 +91,31 @@ margin-bottom: 20px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin: 0px 10% 0px 10%;
+    margin: 0px 10% 100px 10%;
     border-radius: 10px;
+}
+
+.custom{
+    height: 320px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 20px 10% 100px 10%;
+    border-radius: 8px;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.custom-image{
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px gray;
+    margin-bottom: 10px;
+}
+.custom-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  padding-top: 30px;
 }
