@@ -103,8 +103,7 @@ margin-bottom: 20px;
     text-align: center;
     font-family: sans-serif;
     text-decoration: underline;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0px 10px 0px;
 }
 .custom-image{
     height: 200px;
@@ -118,4 +117,28 @@ margin-bottom: 20px;
     align-items: center;
     text-align: center;
   padding-top: 30px;
+}
+
+.sale-section{
+    height: 500px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+.sale-description{
+    width: 400px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sale-des{
+    padding: 20px 5px 25px 5px;
+    font-family: normal;
+    font-size: 16px;
+}
+.sale-flower{
+    height: 340px;
+    width: 260px;
 }
