@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100vh;
+    background:  rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-title{
+    color: #272727;
+font-family: Lato;
+font-size: 70px;
+display: flex;
+flex-direction: column;
+}
+.head-description{
+    width: 600px;
+    margin: 20px 0px 20px 0px;
+}
+.header-img{
+    height: 635px;
+}
+.head-image{
+    margin-bottom: -83px;
+}
+
+button{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background:  #E55473;
+    border: none;
+}
