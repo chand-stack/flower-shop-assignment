@@ -38,14 +38,59 @@ button{
 
 .feature-title{
 text-align: center;
-margin: 50px 0px 50px 0px;
+margin: 100px 0px 50px 0px;
 font-family: sans-serif;
 font-size: 30px;
 font-weight: 800;
 }
 .feature-description{
     margin-top: 10px;
-    font-family: Lato;
-    font-size: 18px;
-    line-height: 30px;  
+    font-size: 16px;
+    line-height: 30px; 
+    font-weight: 400; 
+}
+
+.flower-img{
+width: 350px;
+height: 400px;
+padding: 50px 30px 0px 30px;
+background-color: rgba(167, 33, 98, 0.15);
+border-radius: 300px 300px 0px 0px;
+margin-bottom: 20px;
+}
+.flower-img-two{
+width: 350px;
+height: 400px;
+padding: 50px 30px 0px 30px;
+background-color: rgba(5, 151, 160, 0.15);
+border-radius: 300px 300px 0px 0px;
+margin-bottom: 20px;
+}
+.flower-img-three{
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;  
+}
+
+.feature-section{
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px 150px 100px;
+}
+
+.service-section{
+    height: 250px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10% 0px 10%;
+    border-radius: 10px;
 }
