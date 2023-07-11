@@ -1,82 +1,90 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Lato', sans-serif;
 }
-header{
+
+header {
     height: 100vh;
-    background:  rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.head-title{
+
+.head-title {
     color: #272727;
     font-size: 70px;
     display: flex;
     flex-direction: column;
 }
-.head-description{
+
+.head-description {
     font-size: 16px;
     width: 600px;
     margin: 20px 0px 20px 0px;
 }
-.header-img{
+
+.header-img {
     height: 635px;
 }
-.head-image{
+
+.head-image {
     margin-bottom: -83px;
 }
 
-button{
+button {
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
     color: white;
-    background:  #E55473;
+    background: #E55473;
     border: none;
 }
 
 
-.feature-title{
-text-align: center;
-margin: 100px 0px 50px 0px;
-font-family: sans-serif;
-font-size: 30px;
-font-weight: 800;
-}
-.feature-description{
-    margin-top: 10px;
-    font-size: 16px;
-    line-height: 30px; 
-    font-weight: 400; 
+.feature-title {
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
 }
 
-.flower-img{
-width: 350px;
-height: 400px;
-padding: 50px 30px 0px 30px;
-background-color: rgba(167, 33, 98, 0.15);
-border-radius: 300px 300px 0px 0px;
-margin-bottom: 20px;
+.feature-description {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
 }
-.flower-img-two{
-width: 350px;
-height: 400px;
-padding: 50px 30px 0px 30px;
-background-color: rgba(5, 151, 160, 0.15);
-border-radius: 300px 300px 0px 0px;
-margin-bottom: 20px;
+
+.flower-img {
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
 }
-.flower-img-three{
+
+.flower-img-two {
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
+}
+
+.flower-img-three {
     width: 350px;
     height: 400px;
     padding: 50px 30px 0px 30px;
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 300px 300px 0px 0px;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 }
 
-.feature-section{
+.feature-section {
     text-align: center;
     font-family: sans-serif;
     text-decoration: underline;
@@ -85,7 +93,7 @@ margin-bottom: 20px;
     margin: 0px 100px 150px 100px;
 }
 
-.service-section{
+.service-section {
     height: 250px;
     background-color: rgba(39, 39, 39, 0.05);
     display: flex;
@@ -96,14 +104,14 @@ margin-bottom: 20px;
     border-radius: 10px;
 }
 
-.custom-head{
+.custom-head {
     text-align: center;
     font-family: 'lato';
     padding: 10px 0px 10px 0px;
     font-size: 60px;
 }
 
-.custom{
+.custom {
     height: 320px;
     background: rgba(167, 33, 98, 0.15);
     margin: 20px 10% 100px 10%;
@@ -111,24 +119,27 @@ margin-bottom: 20px;
     text-align: center;
 
 }
-.custom-image{
+
+.custom-image {
     height: 200px;
     border-radius: 10px;
     box-shadow: 1px 1px 8px gray;
     margin-bottom: 10px;
 }
-.custom-section{
+
+.custom-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
-.title{
+.title {
     color: #E55473;
 }
-.sale-section{
+
+.sale-section {
     height: 500px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -137,41 +148,47 @@ margin-bottom: 20px;
     font-size: 18px;
     margin-bottom: 100px;
 }
-.sale-description{
+
+.sale-description {
     width: 400px;
     text-align: center;
     font-family: sans-serif;
 }
-.sale-des{
+
+.sale-des {
     padding: 20px 5px 25px 5px;
     font-family: 'Lato';
     font-size: 16px;
 }
-.sale-flower{
+
+.sale-flower {
     height: 340px;
     width: 260px;
 }
 
-.insta-head{
+.insta-head {
     font-family: sans-serif;
     margin-bottom: 5px;
 }
-.insta{
+
+.insta {
     text-align: center;
     margin-bottom: 20px;
 }
-.insta-des{
+
+.insta-des {
     width: 400px;
     margin: auto;
 }
-.insta-img{
-display: flex;
-justify-content: space-around;
-margin: 0px 10% 100px 10%;
-gap: 15px;
+
+.insta-img {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10% 100px 10%;
+    gap: 15px;
 }
 
-.deal{
+.deal {
     height: 400px;
     background: url(./Flower\ Asset/Rectangle9.png);
     background-repeat: no-repeat;
@@ -180,41 +197,46 @@ gap: 15px;
     align-items: center;
     border-radius: 10px;
 }
-.deal-title{
+
+.deal-title {
     align-items: center;
     padding-top: 120px;
     font-family: sans-serif;
 }
-.email{
+
+.email {
     padding: 15px 500px 15px 20px;
     margin-top: 30px;
     border: none;
     border-radius: 5px;
     font-size: 15px;
 }
-.sub-btn{
+
+.sub-btn {
     border-radius: 5px;
     color: white;
-    background:  #E55473;
-    border: none; 
+    background: #E55473;
+    border: none;
     padding: 15px 25px 15px 25px;
     margin-left: 10px;
 }
 
-footer{
+footer {
     height: 380px;
     background-color: black;
     color: white;
     font-family: sans-serif;
     padding-top: 180px;
 }
-.footer-title{
+
+.footer-title {
     text-align: center;
     width: 550px;
     margin: auto;
-    
+
 }
-.footer-description{
+
+.footer-description {
     font-size: 15px;
     padding: 15px 0px 15px 0px;
 }
