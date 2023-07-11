@@ -1,241 +1,242 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  font-family: "Lato", sans-serif;
-}
-
-.container {
-  margin: 0 11%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
-  height: 100vh;
-  background: rgba(229, 84, 115, 0.1);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .head-title {
-  color: #272727;
-  font-size: 70px;
-  display: flex;
-  flex-direction: column;
+    color: #272727;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .head-description {
-  font-size: 16px;
-  width: 600px;
-  margin: 20px 0px 20px 0px;
+    font-size: 16px;
+    width: 600px;
+    margin: 20px 0px 20px 0px;
+}
+
+.header-img {
+    height: 635px;
 }
 
 .head-image {
-  margin-top: 275px;
-  height: 100%;
+    margin-bottom: -83px;
 }
 
 button {
-  padding: 10px 20px 10px 20px;
-  border-radius: 5px;
-  color: white;
-  background: #e55473;
-  border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background: #E55473;
+    border: none;
 }
 
+
 .feature-title {
-  text-align: center;
-  margin: 100px 0px 50px 0px;
-  font-family: sans-serif;
-  font-size: 30px;
-  font-weight: 800;
+    text-align: center;
+    margin: 100px 0px 50px 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .feature-description {
-  margin-top: 10px;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 400;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
 }
 
 .flower-img {
-  width: 350px;
-  height: 400px;
-  padding: 50px 30px 0px 30px;
-  background-color: rgba(167, 33, 98, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  margin-bottom: 20px;
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .flower-img-two {
-  width: 350px;
-  height: 400px;
-  padding: 50px 30px 0px 30px;
-  background-color: rgba(5, 151, 160, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  margin-bottom: 20px;
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .flower-img-three {
-  width: 350px;
-  height: 400px;
-  padding: 50px 30px 0px 30px;
-  background-color: rgba(71, 125, 17, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  margin-bottom: 20px;
+    width: 350px;
+    height: 400px;
+    padding: 50px 30px 0px 30px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    margin-bottom: 20px;
 }
 
 .feature-section {
-  text-align: center;
-  font-family: sans-serif;
-  text-decoration: underline;
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 11% 150px 11%;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px 150px 100px;
 }
 
 .service-section {
-  height: 250px;
-  background-color: rgba(39, 39, 39, 0.05);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  margin: 0px 11% 100px 11%;
-  border-radius: 10px;
+    height: 250px;
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10% 100px 10%;
+    border-radius: 10px;
 }
 
 .custom-head {
-  text-align: center;
-  font-family: "lato";
-  padding: 10px 0px 10px 0px;
-  font-size: 60px;
+    text-align: center;
+    font-family: 'lato';
+    padding: 10px 0px 10px 0px;
+    font-size: 60px;
 }
 
 .custom {
-  height: 320px;
-  background: rgba(167, 33, 98, 0.15);
-  margin: 20px 11% 100px 11%;
-  border-radius: 8px;
-  text-align: center;
+    height: 320px;
+    background: rgba(167, 33, 98, 0.15);
+    margin: 20px 10% 100px 10%;
+    border-radius: 8px;
+    text-align: center;
+
 }
 
 .custom-image {
-  height: 200px;
-  border-radius: 10px;
-  box-shadow: 1px 1px 8px gray;
-  margin-bottom: 10px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px gray;
+    margin-bottom: 10px;
 }
 
 .custom-section {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 30px;
 }
 
 .title {
-  color: #e55473;
+    color: #E55473;
 }
 
 .sale-section {
-  height: 500px;
-  background: rgba(229, 84, 115, 0.05);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 18px;
-  margin-bottom: 100px;
+    height: 500px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 100px;
 }
 
 .sale-description {
-  width: 400px;
-  text-align: center;
-  font-family: sans-serif;
+    width: 400px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .sale-des {
-  padding: 20px 5px 25px 5px;
-  font-family: "Lato";
-  font-size: 16px;
+    padding: 20px 5px 25px 5px;
+    font-family: 'Lato';
+    font-size: 16px;
 }
 
 .sale-flower {
-  height: 340px;
-  width: 260px;
+    height: 340px;
+    width: 260px;
 }
 
 .insta-head {
-  font-family: sans-serif;
-  margin-bottom: 5px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
 }
 
 .insta {
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .insta-des {
-  width: 400px;
-  margin: auto;
+    width: 400px;
+    margin: auto;
 }
 
 .insta-img {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 11% 100px 11%;
-  gap: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 10% 100px 10%;
+    gap: 15px;
 }
 
 .deal {
-  height: 400px;
-  background: url(./Flower\ Asset/Rectangle9.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  /* align-items: center; */
-  margin-bottom: 100px;
-  border-radius: 10px;
+    height: 400px;
+    background: url(./Flower\ Asset/Rectangle9.png);
+    background-repeat: no-repeat;
+    margin: 0px 8% 100px 8%;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .deal-title {
-  align-items: center;
-  padding-top: 120px;
-  font-family: sans-serif;
+    align-items: center;
+    padding-top: 120px;
+    font-family: sans-serif;
 }
 
 .email {
-  padding: 15px 500px 15px 20px;
-  margin-top: 30px;
-  border: none;
-  border-radius: 5px;
-  font-size: 15px;
+    padding: 15px 500px 15px 20px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
 }
 
 .sub-btn {
-  border-radius: 5px;
-  color: white;
-  background: #e55473;
-  border: none;
-  padding: 15px 25px 15px 25px;
-  margin-left: 10px;
+    border-radius: 5px;
+    color: white;
+    background: #E55473;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    margin-left: 10px;
 }
 
 footer {
-  height: 380px;
-  background-color: black;
-  color: white;
-  font-family: sans-serif;
-  padding-top: 180px;
+    height: 380px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 180px;
 }
 
 .footer-title {
-  text-align: center;
-  width: 550px;
-  margin: auto;
+    text-align: center;
+    width: 550px;
+    margin: auto;
+
 }
 
 .footer-description {
-  font-size: 15px;
-  padding: 15px 0px 15px 0px;
+    font-size: 15px;
+    padding: 15px 0px 15px 0px;
 }
